@@ -1,0 +1,45 @@
+{
+    "bg": "https://assets.dicebreaker.com/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg",
+    "title": "Quiz da Terra Média!",
+    "description": "Teste os seus conhecimentos sobre o universo escrito por J.R.R. Tolkien.",
+    "questions": [
+        {
+            "image": "https://giffiles.alphacoders.com/242/24279.gif",
+            "title": "Em 'O Hobbit' o que Gollum prospôs para Bilbo para mostrar a saída da caverna?",
+            "description": "Essa é pra aquecer",
+            "answer": 2,
+            "alternatives": [
+                "Uma luta com espadas.",
+                "Uma corrida.",
+                "Um jogo de adivinhas.",
+                "Uma disputa de anéis de fumaça"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+            "title": "Em 'Silmarillion' qual dos Valar foi responsavel pela criação dos anões",
+            "description": "Essa é complexa hahaha",
+            "answer": 1,
+            "alternatives": [
+                "Manwë",
+                "Aulë",
+                "Tulkas",
+                "Mandos"
+            ]
+        }
+    ],
+    "external": [
+        ""
+    ],
+    "theme": {
+        "colors": {
+            "primary": "#660708",
+            "secondary": "#E5383B",
+            "mainBg": "#161A1D",
+            "contrastText": "#FFFFFF",
+            "wrong": "#FF5722",
+            "success": "#4CAF50"
+        },
+        "borderRadius": "4px"
+    }
+}
