@@ -1,25 +1,13 @@
-import styled from 'styled-components'
-import db from '../db.json'
-import Widget from '../src/components/widget'
-import Footer from '../src/components/Footer'
-import GitHubCorner from '../src/components/GitHubCorner'
-import QuizBackground from '../src/components/QuizBackground'
-import QuizLogo from '../src/components/QuizLogo'
+import React from 'react';
+import styled from 'styled-components';
+import { useRouter } from 'next/router';
+import db from '../db.json';
 
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.success};
-`;
-
-const BackgroundImage = styled.div`
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-image: url(${db.bg});
-  background-color: ${({ theme }) => theme.colors.mainBg};
-  flex: 1;
-`;
+import Widget from '../src/components/widget';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GitHubCorner';
+import QuizBackground from '../src/components/QuizBackground';
+import QuizLogo from '../src/components/QuizLogo';
 
 const QuizContainer = styled.div`
   width: 100%;
@@ -31,9 +19,12 @@ const QuizContainer = styled.div`
     margin: auto;
     padding: 15px;
   }
-`
+`;
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
@@ -44,6 +35,23 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
+            <form onSubmit={function (event) {
+              event.preventDefault();
+              router.push(`/quiz?name=${name}`);
+              console.log('Fazendo uma submissão por meio do React');
+            }}
+            >
+              <input
+                placeholder="Insira seu nome para jogar."
+                onChange={function (infosDoEvento) {
+                  setName(infosDoEvento.target.value);
+                }}
+              />
+              <button type="submit" disabled={name.length === 0}>
+                {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
+                Vamos começar {name}?
+              </button>
+            </form>
           </Widget.Content>
         </Widget>
 
@@ -51,12 +59,12 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            <p>Olha esses outros quizes feitos pela galera da Imersão React NextJs!</p>
           </Widget.Content>
         </Widget>
         <Footer />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/JSenun" />
     </QuizBackground>
-  )
+  );
 }

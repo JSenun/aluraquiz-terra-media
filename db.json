@@ -12,7 +12,7 @@
                 "Uma luta com espadas.",
                 "Uma corrida.",
                 "Um jogo de adivinhas.",
-                "Uma disputa de anéis de fumaça"
+                "Uma disputa de anéis de fumaça."
             ]
         },
         {
@@ -21,10 +21,10 @@
             "description": "Essa é complexa hahaha",
             "answer": 1,
             "alternatives": [
-                "Manwë",
-                "Aulë",
-                "Tulkas",
-                "Mandos"
+                "Manwë.",
+                "Aulë.",
+                "Tulkas.",
+                "Mandos."
             ]
         }
     ],
@@ -38,7 +38,8 @@
             "mainBg": "#161A1D",
             "contrastText": "#FFFFFF",
             "wrong": "#FF5722",
-            "success": "#4CAF50"
+            "success": "#4CAF50",
+            "hoverButton": "#ea1e22"
         },
         "borderRadius": "4px"
     }
