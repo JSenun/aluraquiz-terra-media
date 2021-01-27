@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import Widget from '../Widget';
+import Widget from '../widget';
 
 const rotate360 = keyframes`
   from {
