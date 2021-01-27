@@ -1,7 +1,7 @@
 {
     "bg": "https://assets.dicebreaker.com/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/lord-of-the-rings-journeys-in-middle-earth-board-game-artwork.jpg",
     "title": "Quiz da Terra Média!",
-    "description": "Teste os seus conhecimentos sobre o universo escrito por J.R.R. Tolkien.",
+    "description": "Teste os seus conhecimentos sobre o universo dos livros escritos por J.R.R. Tolkien.",
     "questions": [
         {
             "image": "https://giffiles.alphacoders.com/242/24279.gif",
@@ -17,14 +17,50 @@
         },
         {
             "image": "https://img.wattpad.com/9644ac9ffe906eae027019e2c323844aa3723d15/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f564241344649304d6956324539773d3d2d3739303832333333392e313563613464646332376335623135613533373531353233363436352e676966?s=fit&w=720&h=720",
-            "title": "Em 'Silmarillion' qual dos Valar foi responsavel pela criação dos anões",
-            "description": "Essa é complexa hahaha",
+            "title": "Em 'Silmarillion' qual dos Valar foi responsavel pela criação dos anões?",
+            "description": "Essa é um pouco complexa hahaha",
             "answer": 1,
             "alternatives": [
                 "Manwë.",
                 "Aulë.",
                 "Tulkas.",
                 "Mandos."
+            ]
+        },
+        {
+            "image": "https://media4.giphy.com/media/Qs75BqLW44RrP0x6qL/200.gif",
+            "title": "Por qual nome Gandalf é conhecido pelos Elfos?",
+            "description": "Ficou Dificil??",
+            "answer": 0,
+            "alternatives": [
+                "Mithrandir.",
+                "Pallando.",
+                "Curunnír.",
+                "Radagast."
+            ]
+        },
+        {
+            "image": "https://www.mundoepic.com.br/wp-content/uploads/2018/09/silmarillion-fingolfin.jpg",
+            "title": "Qual foi o PRIMEIRO Senhor do Escuro?",
+            "description": "Essa é simples vai? haha",
+            "answer": 3,
+            "alternatives": [
+                "Sauron.",
+                "Gothmog.",
+                "Glaurung.",
+                "Melkor(Morgoth)."
+            ]
+        },
+        {
+            "image": "https://media1.tenor.com/images/316d3b232d3acbea73df98e8d30be52d/tenor.gif?itemid=13398384",
+            "title": "Como Aragorn era conhecido durante o livro 'A Sociedade do Anel'",
+            "description": "Uma fácil pra terminar!",
+            "answer": 0,
+            "alternatives": [
+                "Passolargo.",
+                "Escudo de Carvalho.",
+                "Nunca Morto.",
+                "Verdefolha."
             ]
         }
     ],
